@@ -179,7 +179,7 @@ ile root oluyoruz,
 
     find / -name "flag.txt"
 
-ile flag'ımızı /root dizininde bulup **cat** ile bastırıyoruz.
+ile flag'ımızı **/root** dizininde bulup **cat** ile bastırıyoruz.
 
 ![screenshot](screenshots/27.png)
 
