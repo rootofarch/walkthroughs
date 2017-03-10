@@ -3,7 +3,7 @@
 Selam,
 HackDay Albania CTF 2016’da kullanılan sanal makinanın tam çözümünü yaptık, sizlerle paylaşmak istedik. Keyifli okumalar.
 
-#   HackDay Albania CTF
+**HackDay Albania CTF**
 
 VM hakkında ayrıntılı bilgi alabileceğiniz ve indirme bağlantısını bulabileceğiniz link aşağıdadır
 
