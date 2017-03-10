@@ -183,6 +183,10 @@ ile flag'ımızı /root dizininde bulup **cat** ile bastırıyoruz.
 
 ![screenshot](screenshots/27.png)
 
+#   FLAG
+
 ![screenshot](screenshots/flag.png)
+
+#   BU CTFDEN ÇIKAN SONUÇ
 
 ![screenshot](screenshots/shell.png)
