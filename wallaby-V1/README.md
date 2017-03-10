@@ -135,7 +135,7 @@ dediğimizde tepki dahi vermiyor çünkü zaten kanalda bir **waldo** var. Onu a
 ![screenshot](screenshots/22.png)
 
 
-![screenshot](screenshots/hiyar.png)
+![screenshot](screenshots/hiyar.jpg)
 
 
 işler burada geriye dönmemiz gerektiğini söylüyormuş. yeniden **python reverse shell* 'i ile bağlandığımız terminale gelirsek ve
