@@ -131,10 +131,12 @@ ile yeniden kanala dönüp **run** diyerek çalıştırmak istediğimizde hiçbi
 
 dediğimizde tepki dahi vermiyor çünkü zaten kanalda bir **waldo** var. Onu atmayı denediğimizde de yetkimizin olmadığını söylüyor.
 
+
 ![screenshot](screenshots/22.png)
 
 
 ![screenshot](screenshots/hiyar.png)
+
 
 işler burada geriye dönmemiz gerektiğini söylüyormuş. yeniden **python reverse shell* 'i ile bağlandığımız terminale gelirsek ve
 
