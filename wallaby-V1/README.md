@@ -129,9 +129,10 @@ ile yeniden kanala dönüp **run** diyerek çalıştırmak istediğimizde hiçbi
 
     /nick waldo
 
-dediğimizde tepki dahi vermiyor çünkü zaten kanalda bir **waldo* var. Onu atmayı denediğimizde de yetkimizin olmadığını söylüyor.
+dediğimizde tepki dahi vermiyor çünkü zaten kanalda bir **waldo** var. Onu atmayı denediğimizde de yetkimizin olmadığını söylüyor.
 
 ![screenshot](screenshots/22.png)
+
 
 ![screenshot](screenshots/hiyar.png)
 
