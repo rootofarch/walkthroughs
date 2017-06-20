@@ -224,7 +224,7 @@ burası beni en çok yoran kısım oldu çünkü birşeyi öğren uygula ve hatt
 ![screenshot](screenshots/cahil.png)
 
 Docker grubunun root grubuna eşdeğer olduğunu dolayısıyla atlatılabildiğini [şu abimizden](https://reventlov.com/advisories/using-the-docker-command-to-root-the-host) öğrendim.
-Tabi biraz değişiklikler yaparak uyguladımda (debian yerine ubuntu ve **aucc** ler)
+Tabi basit değişiklikler yaparak uyguladım (debian yerine ubuntu ve **aucc** ler)
 Bir klasör oluşturup içerisine Dockerfile adında bir dosyaya
 
     FROM ubuntu:14.04
