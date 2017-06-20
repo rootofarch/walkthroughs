@@ -35,13 +35,13 @@ adresine gitmeyi deniyoruz.
 
 Siteye girdiğimizde bizi vm hakkında ve hazırlayan hakkında
 bilgilendiren bir sayfa karşılıyor ve sayfa kodlarında da birşey bulamayınca, 
-hemen adresi **owasp zap* aracında tarattığımızda **robots.txt** yi görünce kalbimiz çarpsa
+hemen adresi *owasp zap* aracında tarattığımızda **robots.txt** yi görünce kalbimiz çarpsa
 da içinden birşey çıkmıyor. **Dirb**den yardım dilenerek 
 
 ![screenshot](screenshots/03.png)
 
 birkaç ek sayfa daha buluyoruz tabi bulduklarımıza gözatmayı ihmal etmiyoruz
-**http://192.168.2.8/mailer/examples/index.html* sayfasını ziyaret ediyoruz ve 
+*http://192.168.2.8/mailer/examples/index.html* sayfasını ziyaret ediyoruz ve 
 **phpmailer** anahtar sözcüğünü biyere not ediyoruz.
 
 ![screenshot](screenshots/04.png)
@@ -50,22 +50,22 @@ Sistem hakkında bilgiler toplamak için
 
     curl -I http://192.168.2.8/
 
-komutunu kullansakta yalnızca apache versiyonunu öğrenebiliyoruz.
+komutunu kullansakta yalnızca **apache** versiyonunu öğrenebiliyoruz.
 
 ![screenshot](screenshots/05.png)
 
 Elde edilen bilgiler bir ipucuna götürmediği için yönümüzü **exploit** aramaya çeviriyoruz.
-Apache versiyonundan birşey yakalayamıyoruz ancak, **phpmailer** ilgimizi çekmeye başlıyor.
+**Apache** versiyonundan birşey yakalayamıyoruz ancak, **phpmailer** ilgimizi çekmeye başlıyor.
 
 ![screenshot](screenshots/06.png)
 
-Vm çözmenin %90 ı okumaktır deyip **nasıl öğrenirim ben bu versiyonu?* sorusuyla google a gidiyoruz.
+Vm çözmenin %90 ı okumaktır deyip *nasıl öğrenirim ben bu versiyonu?* sorusuyla google a gidiyoruz.
 
 ![screenshot](screenshots/07-1.png)
 
 ![screenshot](screenshots/07-2.png)
 
-**VERSION** dosyasında yazdığını öğrenip **acaba mı?* diyerek bir elimiz kalbimizde bakıyoruz.
+**VERSION** dosyasında yazdığını öğrenip *acaba mı?* diyerek bir elimiz kalbimizde bakıyoruz.
 
 ![screenshot](screenshots/07-3.png)
 
@@ -99,7 +99,7 @@ uzun sayılabilecek bir süre bekledikten sonra işlemimiz bitiyor.
 
 ![screenshot](screenshots/10.png)
 
-**reverse shell* imiz düşmezse **nc** dinlemeye devam ederken firefoxdan
+*reverse shell* imiz düşmezse **nc** dinlemeye devam ederken firefoxdan
 
     http://192.168.2.8/backdoor.php
     
@@ -111,7 +111,7 @@ biraz genel geçer arama yapıyoruz smith kullanıcı adını öğreniyoruz faka
 
 ![screenshot](screenshots/12.png)
 
-yok artık exploit sonrası **ssh bruteforce* mu? dememize kalmadan
+yok artık exploit sonrası *ssh bruteforce* mu? dememize kalmadan
 
 ![screenshot](screenshots/13.png)
 
@@ -123,13 +123,13 @@ publickey veremediğimiz için onuda yapamıyoruz ve tekrar aramaya başlıyoruz
     su smith
     
 ile geçiş yapmayı denesekte gerçek bir shell olmadığı için hata alıp elimiz kolumuz bağlı oturuyoruz
-**shell spawning* yollarına bakıp python yine gözükünce hemen yapıştırıyoruz.
+*shell spawning* yollarına bakıp python yine gözükünce hemen yapıştırıyoruz.
 
 ![screenshot](screenshots/14.png)
 
-ve **su smith** denememizi yapıyoruz nitekim **shell* konusunda sorun çıkmıyo ama **parola?**
-**qwe123* ler **password* ler havada uçuşurken **GameOfPwners** ta ipucu olarak **ön tanımlı parola*
-denilen **kullanıcı adı* geliyo aklımıza ve parolaya da **smith** yazıyoruz.
+ve **su smith** denememizi yapıyoruz nitekim *shell* konusunda sorun çıkmıyo ama **parola?**
+*qwe123* ler *password* ler havada uçuşurken **GameOfPwners** ta ipucu olarak *ön tanımlı parola*
+denilen *kullanıcı adı* geliyo aklımıza ve parolaya da **smith** yazıyoruz.
 
 ![screenshot](screenshots/15.png)
 
@@ -137,7 +137,7 @@ denilen **kullanıcı adı* geliyo aklımıza ve parolaya da **smith** yazıyoru
 ![screenshot](screenshots/OMG.png)
 
 eşimizi dostumuzu ekran başına çağırıp göstermeden devam etmeyelim lütfen... 
-arıyoruz tarıyoruz fakat yine kitlenince **flag* daki **PS* (not) dikkatimizi çekiyor ve **grep** ten zarar gelmez diyip
+arıyoruz tarıyoruz fakat yine kitlenince *flag* daki *PS* (not) dikkatimizi çekiyor ve **grep** ten zarar gelmez diyip
 
     grep -ar "1984"
 
@@ -154,7 +154,7 @@ denediğimize değdiğini görüyoruz. Tabi durmayıp dizine gidiyoruz.
 
 ![screenshot](screenshots/17.png)
 
-dizinin komple bir link olduğunu (**S**) ve **orwell* isimli bir kullanıcıya **parolasız* bağlanılması için **key** kaydı yapıldığını görüyoruz
+dizinin komple bir link olduğunu (**S**) ve *orwell* isimli bir kullanıcıya *parolasız* bağlanılması için **key** kaydı yapıldığını görüyoruz
 nasıl bunu kullanırım sorusunun cevabını ssh manualinde arayıp bulduktan sonra
 
 ![screenshot](screenshots/18.png)
@@ -195,7 +195,7 @@ Dolayısıyla dockerında manuelini okumaya ve internetten araştırmaya başlı
     docker container ls
     
 ile containerleri listeliyoruz ve sadece **donkeydocker** adlı bir container olduğunu görüyoruz.
-Bu containerın neler çalıştırdığına göz atarak **main.sh* ı görüyoruz
+Bu containerın neler çalıştırdığına göz atarak *main.sh* ı görüyoruz
 
 ![screenshot](screenshots/26.png)
 
