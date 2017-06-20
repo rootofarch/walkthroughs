@@ -17,7 +17,7 @@ VM hakkında ayrıntılı bilgi alabileceğiniz ve indirme bağlantısını bula
 
     arp -a
 
-komutu ile **arp** tablosunu edinip hedefimi **192.168.2.8* **IP adresi** nde buluyoruz
+komutu ile **arp** tablosunu edinip hedefimizi **192.168.2.8* **IP adresi** nde buluyoruz
 
     nmap -n -p 1-65535 -sV 192.168.2.8 --open
     
