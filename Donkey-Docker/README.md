@@ -1,12 +1,12 @@
 #   DonkeyDocker
 
 Selam,
-Finallerimiz bitince 4 arkadaş herkes elinden geldiğince vmler çözelim ve yayınlayalım dedik,
-süre belirledik ve çözmeyen kişi veya kişiler bu ruleti ana sisteminde yedek almadan oynayacak diye karar aldık
+Finallerimiz bitince 4 arkadaş herkes elinden geldiğince bir vm çözsün ve yayınlayalım dedik,
+süre belirledik ve çözmeyen kişi veya kişiler bu ruleti ana sisteminde yedek almadan oynayacak diye karar aldık.
 
 ![screenshot](screenshots/ScriptFoalsRulet.png)
 
-Bu vesileyle DonkeyDocker sanal makinasının tam çözümünü yaptık, sizlerle paylaşmak istedik. Keyifli okumalar.
+Bu vesileyle bana da **DonkeyDocker** düştü ve tam çözümünü yaptık, sizlerle paylaşmak istedik. Keyifli okumalar.
 VM hakkında ayrıntılı bilgi alabileceğiniz ve indirme bağlantısını bulabileceğiniz link aşağıdadır
 
 [VulnHub](https://www.vulnhub.com/entry/donkeydocker-1,189/)
@@ -17,15 +17,15 @@ VM hakkında ayrıntılı bilgi alabileceğiniz ve indirme bağlantısını bula
 
     arp -a
 
-komutu ile **arp** tablosunu edinip hedefimizi **192.168.2.8* **IP adresi** nde buluyoruz
+komutu ile **arp** tablosunu edinip hedefimizi *192.168.2.8* **IP adresi** nde buluyoruz
 
     nmap -n -p 1-65535 -sV 192.168.2.8 --open
     
-ile tüm açık tcp portlarını listeliyoruz ve sadece **http(80)** ve **ssh(22)** portu açık görüyoruz
+ile tüm açık tcp portlarını listeliyoruz ve sadece **http(80)** ve **ssh(22) TCP** portu açık görüyoruz
 
 ![screenshot](screenshots/01.png)
 
-bunun üzerine HTTP portuna yönelip browserımızda
+bunun üzerine **HTTP** portuna yönelip browserımızda
 
     192.168.2.8
     
