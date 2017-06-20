@@ -7,14 +7,6 @@ süre belirledik ve çözmeyen kişi veya kişiler bu ruleti ana sisteminde yede
 ![screenshot](screenshots/ScriptFoalsRulet.png)
 
 Bu vesileyle DonkeyDocker sanal makinasının tam çözümünü yaptık, sizlerle paylaşmak istedik. Keyifli okumalar.
-
-**  ___           _            ___          _           **
-** |   \ ___ _ _ | |_____ _  _|   \ ___  __| |_____ _ _ **
-** | |) / _ \ ' \| / / -_) || | |) / _ \/ _| / / -_) '_|**
-** |___/\___/_||_|_\_\___|\_, |___/\___/\__|_\_\___|_|  **
-**                        |__/                          **
-**                             Made with <3 v.1.0 - 2017**
-
 VM hakkında ayrıntılı bilgi alabileceğiniz ve indirme bağlantısını bulabileceğiniz link aşağıdadır
 
 [VulnHub](https://www.vulnhub.com/entry/donkeydocker-1,189/)
@@ -191,7 +183,7 @@ yine aramalarımıza hız vererek (güya daha deneyimliyiz ya)
 
 ilginç birşeyle karşılaşıyoruz.Şahsen benim için ilk kez karşılaştığımdan dolayı ilginç
 "nedir bu busybox?" diye ararken androidleri root etmede kullanıldığını genel linux uygulamalarını içerdiğini öğreniyoruz.
-ve **Shell** imizin **ash** olduğunu ayrıca **orwell** imizin docker gurubuna dahil olduğunu öğreniyoruz.
+ve **Shell** imizin **ash(Almquist shell)** olduğunu ayrıca **orwell** imizin docker gurubuna dahil olduğunu öğreniyoruz.
 Dolayısıyla dockerında manuelini okumaya ve internetten araştırmaya başlıyoruz.
 
 ![screenshot](screenshots/24.png)
