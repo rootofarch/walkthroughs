@@ -195,7 +195,7 @@ Dolayısıyla dockerında manuelini okumaya ve internetten araştırmaya başlı
     docker container ls
     
 ile containerleri listeliyoruz ve sadece **donkeydocker** adlı bir container olduğunu görüyoruz.
-Bu containerın neler çalıştırdığına göz atarak ve **main.sh* ı görüyoruz
+Bu containerın neler çalıştırdığına göz atarak **main.sh* ı görüyoruz
 
 ![screenshot](screenshots/26.png)
 
